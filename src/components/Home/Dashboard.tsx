@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { School, Leaf, Tax, MapPin, Calendar, Phone, Info } from 'lucide-react';
+import { School, Leaf, DollarSign, MapPin, Calendar, Phone, Info } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const featureItems = [
@@ -22,7 +22,7 @@ const featureItems = [
   {
     title: 'Tax Information',
     path: '/tax',
-    icon: Tax,
+    icon: DollarSign,
     color: 'bg-red-100 text-red-600',
     description: 'Payment and assessments'
   },

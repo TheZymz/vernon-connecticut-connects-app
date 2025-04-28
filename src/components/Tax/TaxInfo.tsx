@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Tax, Calendar, Info, ArrowRight } from 'lucide-react';
+import { DollarSign, Calendar, Info, ArrowRight } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
@@ -20,7 +20,7 @@ const TaxInfo = () => {
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
-            <Tax className="h-5 w-5 text-vernon-blue" />
+            <DollarSign className="h-5 w-5 text-vernon-blue" />
             <span>Property Tax Information</span>
           </CardTitle>
           <CardDescription>

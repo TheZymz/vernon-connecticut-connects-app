@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Leaf, Calendar, Info } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -97,7 +96,7 @@ const LeafPickupInfo = () => {
             </p>
           </div>
           
-          <Alert variant="outline" className="bg-amber-50 border-amber-200">
+          <Alert variant="default" className="bg-amber-50 border-amber-200">
             <Info className="h-4 w-4 text-amber-600" />
             <AlertTitle className="text-amber-700">Important Reminder</AlertTitle>
             <AlertDescription className="text-amber-700">
