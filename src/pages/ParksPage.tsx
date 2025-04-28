@@ -1,19 +1,20 @@
 
 import React from 'react';
-import Dashboard from '../components/Home/Dashboard';
+import ParksList from '../components/Parks/ParksList';
 import Navbar from '../components/Layout/Navbar';
 import BottomNav from '../components/Layout/BottomNav';
 
-const Index = () => {
+const ParksPage = () => {
   return (
     <>
       <Navbar />
       <main className="page-container">
-        <Dashboard />
+        <h1 className="section-title">Parks & Recreation</h1>
+        <ParksList />
       </main>
       <BottomNav />
     </>
   );
 };
 
-export default Index;
+export default ParksPage;
